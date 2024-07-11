@@ -1,0 +1,113 @@
+.feedback-container {
+  background-image: linear-gradient(to left, #ffc0bb, #ffeeee);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+@media (max-width: 576px) {
+  .feedback-card {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 19px;
+    width: 80%;
+  }
+  .feedback-question {
+    font-size: 17px;
+    color: #0f172a;
+    font-weight: 600;
+  }
+  .emojis-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 28px;
+    list-style-type: none;
+    margin-left: -38px;
+  }
+  .emojis-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .emoji {
+    height: 45px;
+    width: 45px;
+  }
+  .name {
+    align-self: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #1e293b;
+  }
+  .love-emoji {
+    height: 50px;
+    width: 60px;
+    margin-top: 19px;
+  }
+  .thanking-user {
+    font-size: 22px;
+    color: #0f172a;
+    margin-bottom: 15px;
+  }
+  .thanking-msg {
+    font-size: 14px;
+    color: #1e293b;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 767px) {
+  .feedback-card {
+    background-color: #ffffff;
+    padding: 44px 50px 44px 50px;
+    text-align: center;
+    border-radius: 24px;
+    width: 70%;
+  }
+  .feedback-question {
+    font-size: 38px;
+    color: #0f172a;
+    font-weight: 500;
+  }
+  .emojis-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 38px;
+    list-style-type: none;
+    margin-left: -58px;
+  }
+  .emojis-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .emoji {
+    height: 90px;
+    width: 90px;
+  }
+  .name {
+    align-self: center;
+    font-size: 24px;
+    color: #1e293b;
+  }
+  .love-emoji {
+    height: 90px;
+    width: 100px;
+    margin-top: 34px;
+  }
+  .thanking-user {
+    font-size: 42px;
+    color: #0f172a;
+    margin-bottom: 28px;
+  }
+  .thanking-msg {
+    font-size: 34px;
+    color: #1e293b;
+    margin-bottom: 35px;
+  }
+}
